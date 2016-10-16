@@ -20,7 +20,7 @@ $deployButton: #8C101C;
 $deployButtonHover: #6E0A1E;
 $deployButtonActive: #4C0A17;
 
-$deployDisabledButton: #444;
+$deployDisabledButton: #bbb;
 $deployDisabledButtonHover: #555;
 $deployDisabledButtonActive: #444;
 
@@ -28,13 +28,15 @@ $headerMenuBackground: #121212;
 $headerMenuItemHover: #323232;
 $headerMenuItemDivider: #464646;
 
+$navBackground: #fff;
+
 #header {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 40px;
-    background: #000;
+    background: $navBackground;
     box-sizing: border-box;
     padding: 0px 0px 0px 20px;
     color: #C7C7C7;
@@ -95,11 +97,11 @@ span.logo {
     color: #C7C7C7;
     margin: auto 5px;
     vertical-align: middle;
-    border-left: 2px solid #000;
-    border-right: 2px solid #000;
+    border-left: 2px solid $navBackground;
+    border-right: 2px solid $navBackground;
 
     &:hover {
-        border-color: $headerMenuItemHover;
+        border-color: #fff;
     }
 }
 
