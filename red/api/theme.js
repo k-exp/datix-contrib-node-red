@@ -22,12 +22,12 @@ var clone = require("clone");
 
 var defaultContext = {
     page: {
-        title: "Node-RED",
+        title: "datix",
         favicon: "favicon.ico",
         tabicon: "red/images/node-red-icon-black.svg"
     },
     header: {
-        title: "Node-RED",
+        title: "datix",
         image: "red/images/node-red.png"
     },
     asset: {
