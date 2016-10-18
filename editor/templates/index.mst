@@ -36,7 +36,7 @@
 </head>
 <body spellcheck="false">
 <div id="header">
-    <span class="logo">
+    <span class="logo-lg">
       {{#header.url}}
       <a href="{{.}}">{{/header.url}}{{#header.image}}
         <img src="{{.}}" title="{{version}}">{{/header.image}}
